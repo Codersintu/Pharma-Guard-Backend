@@ -1,9 +1,0 @@
-##fileformat=VCFv4.2
-##source=PharmaGuard
-##INFO=<ID=GENE,Number=1,Type=String,Description="Gene Symbol">
-##INFO=<ID=STAR,Number=1,Type=String,Description="Star Allele">
-##INFO=<ID=RS,Number=1,Type=String,Description="dbSNP ID">
-#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
-10	94761900	rs4244285	G	A	.	PASS	GENE=CYP2C19;STAR=*2;RS=rs4244285
-10	96741053	rs1057910	A	C	.	PASS	GENE=CYP2C9;STAR=*3;RS=rs1057910
-22	42127803	rs3892097	C	T	.	PASS	GENE=CYP2D6;STAR=*4;RS=rs3892097
