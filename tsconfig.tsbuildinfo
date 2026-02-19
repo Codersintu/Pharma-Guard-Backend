@@ -1,1 +1,1 @@
-{"root":["./src/index.ts"],"version":"5.9.3"}
+{"root":["./src/index.ts","./src/controller/analyze.controller.ts","./src/middleware/upload.middleware.ts","./src/router/analyze.route.ts","./src/services/openai.services.ts","./src/services/riskpredictor.services.ts","./src/services/vc.services.ts","./src/utilis/jsonformatters.utilis.ts"],"version":"5.9.3"}
