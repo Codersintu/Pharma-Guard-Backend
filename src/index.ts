@@ -1,10 +1,14 @@
 import { configDotenv } from "dotenv";
 import express, { type NextFunction, type Request, type Response } from "express"
 import analyzeRoute from "./router/analyze.route.js";
+import cors from "cors";
 const app = express()
 app.use(express.json());
 configDotenv();
 
+app.use(cors({
+  origin: "http://localhost:3000",
+}))
 
 app.get("/", (req, res) => {
   res.send("API is running")
