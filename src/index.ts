@@ -7,7 +7,7 @@ app.use(express.json());
 configDotenv();
 
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "https://pharma-guard-six.vercel.app",
 }))
 
 app.get("/", (req, res) => {
