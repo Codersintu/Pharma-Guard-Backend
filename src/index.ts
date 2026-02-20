@@ -24,11 +24,8 @@ app.use((err:Error, req:Request, res:Response, next:NextFunction) => {
   })
 })
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
-if (process.env.NODE_ENV !== "production") {
-  app.listen(PORT, () => {
-    console.log(`Server running on ${PORT}`);
-  });
-}
-export default app;
+app.listen(PORT, () => {
+  console.log(`Server running on ${PORT}`);
+});
